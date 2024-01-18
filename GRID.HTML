@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>grid practice</title>
+  <style>
+    .top{
+      font-size:x-large;
+      height: 50px;margin-left: 10px;margin-right: 10px;margin-top: 10px;margin-bottom: 10px;
+      text-align: center;
+      color: white;
+      padding-top: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .down{
+      margin-right: 10px;height: 150px;
+      font-size:x-large;
+      text-align: center;
+      padding-top: 100px;
+      color: white;
+
+
+    }
+  </style>
+</head>
+    <body>
+      <div style="background-color: rgb(189, 184, 184); width: 500px;">
+      <div style="display: grid;grid-template-columns: 1fr;">
+      <div class="top" style="background-color:darkslateblue;">Holy Grail Layout</div>
+    
+      <div style="display: grid;grid-template-columns: 1fr 2fr 1fr;margin-left: 10px; ">
+        <div class="down" style="background-color:turquoise;">Nav </div>
+        <div class="down" style="background-color:peru;">Main Content</div>
+        <div class="down" style="background-color:turquoise;">Sidebar</div>
+  
+      </div>
+      <div class="top" style="background-color:darkslateblue;">Footer</div></div>
+    </body>
+  
+</html>
